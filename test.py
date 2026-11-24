@@ -12,7 +12,7 @@ LOGIN = "тут логин"
 PASSWORD = "тут пароль"
 HEADLESS = False
 
-EXPIRATION_DATE = date(2027, 6, 1)
+EXPIRATION_DATE = date(2077, 6, 1)
 SUMMER_MONTHS = [6, 7, 8]
 
 COMMENTS = [
@@ -201,7 +201,7 @@ async def main():
     today = date.today()
 
     if today >= EXPIRATION_DATE:
-        print("🎓 Ну вот и всё, моя смена окончена! ...")
+        print("🎓 Ну вот и всё, моя смена окончена! с 2077годом это киберпан ЕХУУУУУУУ ...")
         return
 
     if today.month in SUMMER_MONTHS:
